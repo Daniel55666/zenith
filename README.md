@@ -1,1 +1,1 @@
-Idk bro, im too lazy to write anything
+Zenith is a advanced chromium based extension made for chess, currently chess.com and lichess.org are supported, only pc version is tested and on mobile is still unknown. you can buy a premium key or use it for free by watching ads. idk what else to say.
