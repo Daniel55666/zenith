@@ -1,7 +1,7 @@
 ZENITH
 Guide and Installation
 
-Zenith is a browser extension that gives you live coaching while you play on chess.com or lichess.org. It runs a chess engine (Stockfish) entirely on your own device, so nothing is uploaded anywhere and no account is needed. When it is your turn, it shows you the best move to play, the strongest alternatives, and a live evaluation of the position.
+Zenith is a browser extension that gives you live coaching while you play on chess.com or lichess.org. It runs a chess engine entirely on your own device, so nothing is uploaded anywhere and no account is needed, the only internet calls are license verification. When it is your turn, it shows you the best move to play, the strongest alternatives, and a live evaluation of the position.
 
 This guide covers installation on a desktop computer and the Android phone method (via the Kiwi browser). Android has its own guide in the file ANDROID.md.
 
@@ -9,13 +9,13 @@ This guide covers installation on a desktop computer and the Android phone metho
 Part 1 - Installing on Desktop (Chrome or Edge)
 ---------------------------------------------------------------------------
 
-Step 1: Unzip the "dist" folder that contains these files. If you only have the "dist.zip" file, right click it and choose Extract All.
+Step 1: Unzip the "distfnl" folder that contains these files. If you only have the "distfnl.zip" file, right click it and choose Extract All.
 
 Step 2: Open your browser and go to chrome://extensions (for the Edge browser it is edge://extensions).
 
 Step 3: Turn on "Developer mode". This switch is in the top right corner of that page.
 
-Step 4: Click the "Load unpacked" button and select the "dist" folder you unzipped in Step 1.
+Step 4: Click the "Load unpacked" button and select the "distfnl" folder you unzipped in Step 1.
 
 Step 5: The extension is now installed. Make sure it is switched on.
 
