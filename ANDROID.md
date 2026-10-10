@@ -9,11 +9,11 @@ Part 1 - The Short Version
 
 Step 1: Install the Kiwi browser from the Google Play Store.
 
-Step 2: Put the "dist" extension folder on your phone. The easiest way is to copy the unzipped folder into the Download folder. If you only have the "dist.zip" file, extract it on the phone first.
+Step 2: Put the "dist" extension folder on your phone. The easiest way is to copy the unzipped folder into the Download folder. If you only have the "distfnl.zip" file, extract it on the phone first.
 
 Step 3: Open the Kiwi browser and go to chrome://extensions.
 
-Step 4: Turn on "Developer mode" and tap the "Load from .zip" or "Load unpacked" option, then choose the "dist" folder.
+Step 4: Turn on "Developer mode" and tap the "Load from .zip" or "Load unpacked" option, then choose the "distfnl" folder.
 
 Step 5: Open chess.com or lichess in the Kiwi browser and start a game. Coaching arrows should appear once you are on the game screen.
 
