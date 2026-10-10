@@ -1,0 +1,254 @@
+/* The [hidden] attribute must win over these layout display values: author styles
+   (display:flex) otherwise override the UA [hidden]{display:none} rule, which made
+   the modal overlay, the key field and the hidden buttons all render at once. */
+[hidden]{display:none !important;}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background: #12121d;
+  color: #e0e0e0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 13px;
+}
+.container {
+  padding: 12px 14px;
+  background: linear-gradient(180deg, #1a1a2b, #12121d);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  font-size: 22px;
+  color: #58a6ff;
+  background: rgba(88, 166, 255, 0.12);
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+h1 {
+  font-size: 16px;
+  margin: 0;
+  color: #fff;
+  letter-spacing: 0.3px;
+}
+.subtitle {
+  margin: 1px 0 0;
+  font-size: 10.5px;
+  color: #8a8aa3;
+}
+
+.card {
+  margin-top: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #26263e;
+  border-radius: 10px;
+  padding: 9px 12px;
+}
+.card-none {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.card-title {
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #8a8aa3;
+  margin-bottom: 8px;
+}
+.row-label {
+  font-size: 13px;
+  color: #e6e6f0;
+}
+
+/* Switch */
+.switch {
+  position: relative;
+  width: 38px;
+  height: 21px;
+  flex-shrink: 0;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #33334d;
+  border-radius: 21px;
+  transition: background 0.2s;
+}
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 3px;
+  top: 3px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+.switch input:checked + .slider {
+  background: #58a6ff;
+}
+.switch input:checked + .slider::before {
+  transform: translateX(17px);
+}
+
+/* Segmented */
+.seg {
+  display: flex;
+  gap: 6px;
+}
+.seg label {
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+}
+.seg input {
+  display: none;
+}
+.seg span {
+  display: block;
+  padding: 7px 0;
+  border-radius: 8px;
+  background: #1b1b2c;
+  border: 1px solid #2a2a40;
+  font-size: 12px;
+  transition: all 0.15s;
+}
+.seg input:checked + span {
+  background: #58a6ff;
+  color: #04121f;
+  border-color: #58a6ff;
+  font-weight: 600;
+}
+
+/* Fields (label + select) */
+.field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.field span {
+  color: #c7ccdd;
+}
+.field select {
+  background: #1b1b2c;
+  color: #e6e6f0;
+  border: 1px solid #2a2a40;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+}
+
+.status {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 11px;
+  color: #8a8aa3;
+  min-height: 14px;
+}
+.foot {
+  margin-top: 2px;
+  font-size: 10.5px;
+  color: #6f6f8c;
+  text-align: center;
+}
+.local {
+  color: #7ee787;
+}
+
+/* License panel */
+.license-tier {
+  font-weight: 600;
+  font-size: 12px;
+}
+.license-tier.ok {
+  color: #7ee787;
+}
+.license-tier.locked {
+  color: #ffa657;
+}
+#license-key {
+  width: 100%;
+  margin-top: 4px;
+  padding: 6px 8px;
+  background: #1b1b2c;
+  color: #e6e6f0;
+  border: 1px solid #2a2a40;
+  border-radius: 6px;
+  font-size: 12px;
+  outline: none;
+}
+#license-key:focus {
+  border-color: #58a6ff;
+}
+.btn-row {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+}
+.btn-row button {
+  flex: 1;
+  padding: 7px 0;
+  border-radius: 8px;
+  border: 1px solid #2a2a40;
+  background: #1b1b2c;
+  color: #e6e6f0;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.btn-row button:hover:not(:disabled) {
+  border-color: #58a6ff;
+}
+.btn-row button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.hint {
+  margin: 6px 0 0;
+  font-size: 10.5px;
+  color: #8a8aa3;
+  min-height: 12px;
+}
+
+/* License modal */
+.modal-overlay{position:fixed;inset:0;background:rgba(10,12,18,.55);display:flex;align-items:center;justify-content:center;z-index:1000;}
+.modal{background:#171922;color:#e8e6f0;border-radius:14px;padding:22px 20px;width:280px;max-width:92vw;box-shadow:0 12px 34px rgba(0,0,0,.45);}
+.modal h2{margin:0 0 4px;font-size:17px;font-weight:700;}
+.modal-sub{margin:0 0 16px;color:#9aa3b8;font-size:12px;}
+.modal-buttons{display:flex;flex-direction:column;gap:8px;}
+.modal-buttons button{width:100%;padding:10px 0;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;}
+.modal-close{position:absolute;top:8px;right:12px;background:none;border:none;color:#9aa3b8;font-size:18px;line-height:1;cursor:pointer;}
+.modal{position:relative;}
+.modal-keywrap{display:flex;gap:8px;margin-top:12px;}
+.modal-keywrap input{flex:1;min-width:0;padding:8px;border-radius:8px;border:1px solid #3a3f4d;background:#10131a;color:#e8e6f0;font-size:13px;}
+#license-confirm{padding:8px 12px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;}
+#modal-hint{margin:10px 0 0;font-size:12px;color:#d8b04a;line-height:1.35;}
+#modal-hint.ok{color:#58c26b;}
+button.primary{background:#d8b04a;color:#14161d;border:none;}
+button.primary:disabled{opacity:.55;}
+button.secondary{background:#242a38;color:#e8e6f0;border:none;}
