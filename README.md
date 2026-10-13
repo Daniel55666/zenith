@@ -8,26 +8,22 @@ Zenith is powered by a custom-tuned version of Stockfish.
 
 - Supports Chess.com and Lichess.org
 - PC version tested; mobile support unknown
-- Premium key or free access by watching ads
+- Free Key only, Premium only when i fix the shit with gumroad
 - Powered by a custom-tuned version of Stockfish
 
 ## Installation
 
-Installation instructions are included in the ZIP file.
+Installation instructions are included in the ZIP file, or in the other .md files here.
 
 ## Purchase / License
 
 You can either buy a premium key or use Zenith for free by watching ads.
 
-- **Zenith (current version):**  
-  https://seldaniel.gumroad.com/l/zenith
-
-- **Zenith v1 (outdated version):**  
-  https://seldaniel.gumroad.com/l/ucast
+as i said currently only free version works which you can find everything in the extension
 
 ## Known Issue
 
-When creating a free pass, the extension may show that it is not activated when it should be. The only known workaround is to wait or revisit LootLabs a couple of times.
+No issues known, excpet slight lag behind on activation
 
 ## Contact
 
@@ -35,3 +31,4 @@ If you have any questions, DM me on:
 
 - Discord: `salzloskittelbanana`
 - TikTok: `salzlos_kittel`
+or join my discord server: https://discord.gg/X5AEHXN7T
