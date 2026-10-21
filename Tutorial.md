@@ -1,17 +1,17 @@
-ZENITH
+Zenith
 Guide and Installation
 
-Zenith is a browser extension that gives you live coaching while you play on chess.com or lichess.org. It runs a local chess engine entirely on your own device, so nothing is uploaded anywhere and no account is needed. When it is your turn, it shows you the best move to play, the strongest alternatives, and a live evaluation of the position.
+Zenith is a browser extension that gives you live support while you play on chess.com or lichess.org. It runs a local chess engine entirely on your own device, so nothing is uploaded anywhere and no account is needed. When it is your turn, it shows you the best move to play, the strongest alternatives, and a live evaluation of the position, the only networck traffic is license validation.
 
 This guide covers installation on a desktop computer and the Android phone method (via the Kiwi browser). Android has its own guide in the file ANDROID.md.
 
 ---------------------------------------------------------------------------
-Part 1 - Installing on Desktop (Chrome or Edge)
+Part 1 - Installing on Desktop (Chrome)
 ---------------------------------------------------------------------------
 
-Step 1: Unzip the "dist" folder that contains these files. If you only have the "dist.zip" file, right click it and choose Extract All.
+Step 1: Unzip the "distfnl" folder that contains these files. If you only have the "distfnl.zip" file, right click it and choose Extract All.
 
-Step 2: Open your browser and go to chrome://extensions (for the Edge browser it is edge://extensions).
+Step 2: Open your browser and go to chrome://extensions (depends on the browser).
 
 Step 3: Turn on "Developer mode". This switch is in the top right corner of that page.
 
@@ -23,16 +23,7 @@ Step 5: The extension is now installed. Make sure it is switched on.
 Part 2 - How to Use It
 ---------------------------------------------------------------------------
 
-Step 1: Start a game on chess.com or lichess.org. It works with live games and with the analysis board.
-
-Step 2: Wait until it is your turn. The assistant will then show:
-   - a green arrow, which is the best move,
-   - red arrows, which are good alternative moves,
-   - the evaluation in the small panel on the right (a number score or "mate in X"),
-   - a list of the top moves and the line that follows them.
-If you turned on "Show opponent threats", it will also tint the squares that your opponent currently attacks, so you can avoid moving your pieces there.
-
-Step 3: Your own color (white or black) is detected automatically by looking at which side of the board is at the bottom. If you ever need to force it, you can choose White or Black manually in the extension popup.
+Step 1: you first need to activate the extension, its done by clicking on the Zenith extension icon, which opens the popup, there you can press "Get a free 24 hour key" it will redirect you to the correct lootlabs page, after completing it you will be rewarded with a 24 hour accses key which you can use right away
 
 ---------------------------------------------------------------------------
 Part 3 - Settings
@@ -58,14 +49,6 @@ The settings available are:
    Highlights the squares your opponent controls.
 
 To edit a site's settings, simply open the popup while you are on that site.
-
----------------------------------------------------------------------------
-Part 4 - Android (Kiwi Browser)
----------------------------------------------------------------------------
-
-iOS does not allow third party browser extensions, so Android is the only realistic mobile option. It works through the Kiwi browser.
-
-For the full setup, read the file ANDROID.md in this folder. In short: install the Kiwi browser from the Play Store, load this extension into it, then open chess.com or lichess. The assistant automatically uses a built in version of the engine so it works on the phone without needing the desktop background piece.
 
 ---------------------------------------------------------------------------
 Part 5 - Tips and Troubleshooting
