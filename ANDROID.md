@@ -1,4 +1,4 @@
-ZENITH ON ANDROID
+Zenith on Android
 Setup Guide
 
 This guide explains how to run Zenith on an Android phone. The desktop version (see Tutorial.md) works in a normal Chrome or Edge browser. On a phone, iOS does not allow third party browser extensions at all, so Android is the only practical mobile option, and it is done through the Kiwi browser.
@@ -13,15 +13,15 @@ Step 2: Put the "dist" extension folder on your phone. The easiest way is to cop
 
 Step 3: Open the Kiwi browser and go to chrome://extensions.
 
-Step 4: Turn on "Developer mode" and tap the "Load from .zip" or "Load unpacked" option, then choose the "dist" folder.
+Step 4: Turn on "Developer mode" and tap the "Load unpacked" option, then choose the "dist" folder.
 
-Step 5: Open chess.com or lichess in the Kiwi browser and start a game. Coaching arrows should appear once you are on the game screen.
+Step 5: Open chess.com or lichess in the Kiwi browser and start a game. Arrows should appear once you are on the game screen.
 
 ---------------------------------------------------------------------------
 Part 2 - Why It Works on Android
 ---------------------------------------------------------------------------
 
-On a normal desktop browser, the extension runs the chess engine in a hidden "offscreen" page. The Android version of the Chrome engine inside Kiwi does not always support that hidden page or the background service reliably. For this reason, Zenith version 2 can detect when this happens and switches to a built in fallback. In fallback mode it loads the engine directly inside the page as a normal background worker and still calculates on your phone, with nothing sent to the internet. The analysis stays local.
+On a normal desktop browser, the extension runs the chess engine in a hidden "offscreen" page. The Android version of the Chrome engine inside Kiwi does not always support that hidden page or the background service reliably. For this reason, Zenith can detect when this happens and switches to a built in fallback. In fallback mode it loads the engine directly inside the page as a normal background worker and still calculates on your phone, with nothing sent to the internet. The analysis stays local.
 
 A note on status: this fallback mode is newer than the desktop path and is treated as preview on Android. It works fine for a single game, but a long analysis session will use more battery than the desktop version.
 
