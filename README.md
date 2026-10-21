@@ -32,3 +32,5 @@ If you have any questions, DM me on:
 - Discord: `salzloskittelbanana`
 - TikTok: `salzlos_kittel`
 or join my discord server: https://discord.gg/X5AEHXN7T
+
+(and before crying to me that its not working read the guide on the discord server)
