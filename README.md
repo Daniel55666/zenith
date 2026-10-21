@@ -1,13 +1,13 @@
 # Zenith
 
-Zenith is an advanced Chromium-based extension for chess. It currently supports **Chess.com** and **Lichess.org**. Only the PC version has been tested, mobile support is currently unknown.
+Zenith is an advanced Chromium-based extension for chess. It currently supports **Chess.com** and **Lichess.org**. Only the PC version has been tested, mobile support is currently unknown and may not work as intended (dont dm me about it not working)
 
-Zenith is powered by a custom-tuned version of Stockfish.
+Zenith is powered by a custom tuned version of Stockfish.
 
 ## Features
 
 - Supports Chess.com and Lichess.org
-- PC version tested; mobile support unknown
+- PC version tested, mobile support unknown
 - Free Key only, Premium only when i fix the shit with gumroad
 - Powered by a custom-tuned version of Stockfish
 
