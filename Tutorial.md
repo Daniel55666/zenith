@@ -51,7 +51,7 @@ The settings available are:
 To edit a site's settings, simply open the popup while you are on that site.
 
 ---------------------------------------------------------------------------
-Part 5 - Tips and Troubleshooting
+Part 4 - Tips and Troubleshooting
 ---------------------------------------------------------------------------
 
    - After enabling the extension or changing major settings, reload the game page once so everything picks up correctly.
