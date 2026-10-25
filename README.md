@@ -27,10 +27,6 @@ No issues known, excpet slight lag behind on activation
 
 ## Contact
 
-If you have any questions, DM me on:
+If you have any questions, join the discord server and make a ticket: https://discord.gg/X5AEHXN7T
 
-- Discord: `salzloskittelbanana`
-- TikTok: `salzlos_kittel`
-or join my discord server: https://discord.gg/X5AEHXN7T
-
-(and before crying to me that its not working read the guide on the discord server)
+(or if you cant join for some reason dm me on discord: salzloskittelbanana or on tiktok: salzloskittel)
